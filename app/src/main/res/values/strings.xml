@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Learning Contract</string>
+    <string name="group_members_title">Group Members &amp; Their Commitments</string>
+    <string name="group_member_role">Group Member</string>
+    <string name="expectations_label">Expectations</string>
+    <string name="motivations_label">Motivations</string>
+    <string name="contributions_label">Contributions</string>
+    <string name="hindrances_label">Hindrances</string>
+</resources>
