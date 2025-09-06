@@ -18,13 +18,12 @@ Each group member's learning contract includes:
 - **Contributions** - What they bring to the team
 - **Hindrances** - Potential challenges they face
 
-### 👥 Sample Group Members
-The app includes 5 diverse group members:
-1. **Alexandra Chen** - UI/UX focused with design experience
-2. **Marcus Johnson** - Java background developer with perfectionist traits
-3. **Sophia Rodriguez** - Project management skills, new to programming
-4. **David Kim** - Database experience, balancing family responsibilities
-5. **Emma Thompson** - Research-oriented with imposter syndrome challenges
+### 👥 Group Members
+The app includes 4 team members with diverse backgrounds and learning goals:
+1. **Doniele Arys A. Antonio** - Lead Android Developer focused on continuous improvement and technical excellence
+2. **Francis Lorenzana** - Group Member exploring mobile development through hands-on experimentation
+3. **Leigh Egino** - Group Member investigating the creative and user experience aspects of app development
+4. **Ivar Duarte** - Group Member exploring advanced development concepts and modern technologies
 
 ## 🏗️ Architecture & Best Practices
 

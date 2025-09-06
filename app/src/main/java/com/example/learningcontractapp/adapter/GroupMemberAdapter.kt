@@ -64,7 +64,7 @@ class GroupMemberAdapter : ListAdapter<GroupMember, GroupMemberAdapter.GroupMemb
 
         private fun applyBlueNumbering(text: String): SpannableString {
             val spannableString = SpannableString(text)
-            val blueColor = ContextCompat.getColor(binding.root.context, R.color.premium_blue_600)
+            val blueColor = ContextCompat.getColor(binding.root.context, R.color.section_header_deep_blue)
             
             // Find all numbered list items (1. 2. 3. etc.)
             val regex = Regex("\\d+\\.")
