@@ -6,4 +6,5 @@
     <string name="motivations_label">Motivations</string>
     <string name="contributions_label">Contributions</string>
     <string name="hindrances_label">Hindrances</string>
+    <string name="theme_toggle_description">Toggle between light and dark theme</string>
 </resources>

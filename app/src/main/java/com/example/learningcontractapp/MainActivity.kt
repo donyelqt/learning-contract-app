@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var adapter: GroupMemberAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Apply saved theme before super.onCreate()
+        ThemeManager.applySavedTheme(this)
+        
         super.onCreate(savedInstanceState)
         
         // Initialize ViewBinding
@@ -25,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         
         setupToolbar()
+        setupThemeToggle()
         setupRecyclerView()
         loadData()
     }
@@ -35,6 +39,23 @@ class MainActivity : AppCompatActivity() {
             title = getString(R.string.app_name)
             setDisplayShowTitleEnabled(true)
         }
+    }
+
+    private fun setupThemeToggle() {
+        // Update icon based on current theme
+        updateThemeToggleIcon()
+        
+        // Set click listener for theme toggle
+        binding.btnThemeToggle.setOnClickListener {
+            ThemeManager.toggleTheme(this)
+            // Icon will be updated automatically when activity recreates
+        }
+    }
+    
+    private fun updateThemeToggleIcon() {
+        val isDark = ThemeManager.isDarkTheme(this)
+        val iconRes = if (isDark) R.drawable.ic_light_mode else R.drawable.ic_dark_mode
+        binding.btnThemeToggle.setImageResource(iconRes)
     }
 
     private fun setupRecyclerView() {

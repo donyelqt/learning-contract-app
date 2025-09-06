@@ -39,8 +39,9 @@ class GroupMemberAdapter : ListAdapter<GroupMember, GroupMemberAdapter.GroupMemb
 
         fun bind(member: GroupMember) {
             with(binding) {
-                // Set member name
+                // Set member name and role
                 textViewName.text = member.name
+                textViewRole.text = member.role
                 
                 // Generate initials from name
                 textViewInitials.text = generateInitials(member.name)

@@ -56,6 +56,9 @@
     <color name="premium_blue_800">#0D47A1</color>
     <color name="premium_blue_900">#0052CC</color>
     
+    <!-- Deep Blue for Section Headers - Optimized for both light and dark modes -->
+    <color name="section_header_deep_blue">#0D47A1</color>
+    
     <!-- Legacy colors for compatibility -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>

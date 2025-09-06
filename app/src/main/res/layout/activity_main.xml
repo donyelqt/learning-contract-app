@@ -91,4 +91,18 @@
 
     </androidx.core.widget.NestedScrollView>
 
+    <!-- Theme Toggle FAB at bottom right -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnThemeToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/theme_toggle_description"
+        app:srcCompat="@drawable/ic_light_mode"
+        app:tint="?attr/colorOnPrimary"
+        app:backgroundTint="?attr/colorPrimary"
+        app:elevation="8dp"
+        app:pressedTranslationZ="12dp" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

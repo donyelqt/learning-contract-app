@@ -6,6 +6,7 @@ package com.example.learningcontractapp.model
 data class GroupMember(
     val id: Int,
     val name: String,
+    val role: String = "Group Member", // Default role
     val profileImage: String? = null, // For future avatar implementation
     val learningContract: LearningContract
 )
